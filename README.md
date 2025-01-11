@@ -61,11 +61,16 @@ Step-by-step guide to setting up the project locally:
    ```bash
    cd client && cd server
    ```
-3. Install dependencies:
+3. Create a `.env` file in the `server` directory and add the following environment variables:
+   ```env
+   ADMIN_USERNAME=your_username
+   ADMIN_PASSWORD=your_password
+   ```
+4. Install dependencies:
    ```bash
    npm install
    ```
-4. Start the development server:
+5. Start the development server:
    ```bash
    npm run dev
    ```
@@ -74,8 +79,8 @@ Step-by-step guide to setting up the project locally:
 
 ### Admin Dashboard
 
-1. Log in to the admin panel using your credentials.
-2. Add or edit your projects, skills, experiences, and education.
+1. Log in to the admin panel at `/login` using your credentials.
+2. Once logged in, you'll be redirected to `/dashboard`, where you can add or edit your projects, skills, experiences, and education.
 3. Preview changes in real-time on the portfolio page.
 
 ### Portfolio Page
