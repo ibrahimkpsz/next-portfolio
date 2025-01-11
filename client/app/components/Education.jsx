@@ -1,0 +1,23 @@
+import moment from "moment";
+import { FaGraduationCap } from "react-icons/fa";
+
+const formatDate = (dateString) => {
+    return moment(dateString).locale('en').format('LL');
+};
+
+const Education = ({ degree, institution, date }) => (
+    <div className="flex items-center justify-between py-1">
+        <div className="flex items-center gap-3">
+            <div className="p-3 border rounded-full">
+                <FaGraduationCap className="mx-auto" />
+            </div>
+            <div className="flex flex-col">
+                <div className="text-sm font-semibold">{degree}</div>
+                <div className="text-xs">{institution}</div>
+            </div>
+        </div>
+        {date.to ? <span className="text-xs">{formatDate(date.from) + " - " + formatDate(date.to)}</span> : <span className="text-xs">{formatDate(date.from) + " - " + "Present"}</span>}
+    </div>
+);
+
+export default Education;
