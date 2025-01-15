@@ -2,6 +2,8 @@
 
 Next Portfolio is a portfolio website with an integrated management panel. It allows users to showcase their work while providing an admin dashboard for managing content efficiently.
 
+![screenshot](https://media.licdn.com/dms/image/v2/D4D22AQEeo5OQ__Qyow/feedshare-shrink_2048_1536/B4DZRXworpHUAo-/0/1736639155917?e=1740009600&v=beta&t=qw2azWyrcTg2xBV01wtmvZ-udkNjAX8F5YCGscPty28)
+
 ## Table of Contents
 
 - [Overview](#overview)
